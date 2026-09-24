@@ -2,9 +2,9 @@
 using namespace std;
 int main (){
     
-    int a;
-    cout<<"Enter the value of a: ";
-    cin>>a;
-    cout<<"The value of a is: "<<a<<endl;
+    int a ,b;
+    cout<<"Enter the two numbers: ";
+    cin>>a>>b;
+    cout<<"The sum of "<<a<<" and "<<b<<" is: "<<a+b<<endl;
     return 0;
 }
